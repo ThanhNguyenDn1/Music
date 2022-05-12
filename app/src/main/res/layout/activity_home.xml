@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#FB0000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_clear_24"
+            app:tint="@color/white"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Âm thanh và rung"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"></TextView>
+
+
+
+        <ImageView
+            android:onClick="shop"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_shopping_cart_24"
+            app:tint="@color/white"></ImageView>
+        <ImageView
+            android:onClick="checl"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_chevron_right_24"
+            app:tint="@color/white"></ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingHorizontal="16dp"
+        android:text="KHÔNG LÀM PHIỀN"
+        android:textColor="#777777"
+        android:textSize="15dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Không làm phiền"
+            android:textColor="#151515"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="50dp"></Switch>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Hẹn giờ bật"
+            android:textColor="#151515"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="50dp"></Switch>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Khi thiết bị khóa"
+            android:textColor="#151515"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="50dp"></Switch>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Thông báo cuộc gọi"
+            android:textColor="#151515"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="50dp"></Switch>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Thông báo cuộc gọi lặp lại"
+            android:textColor="#151515"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="50dp"></Switch>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:paddingHorizontal="16dp"
+        android:text="RUNG"
+        android:textColor="#777777"
+        android:textSize="15dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Rung khi đổ chuông"
+            android:textColor="#151515"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="50dp"></Switch>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Rung khi  im lặng"
+            android:textColor="#151515"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="50dp"></Switch>
+    </LinearLayout>
+
+</LinearLayout>
